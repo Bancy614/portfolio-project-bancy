@@ -1,9 +1,11 @@
 :root {
   --primary-color-background: #f9f7fe;
   --secondary-color-btn: #6c63ff;
+  --font-family-heading: "Playfair Display", serif;
+  --font-family-default: "Poppins", sans-serif;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family-default);
 }
 h1,
 h2,
@@ -30,20 +32,19 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   color: #272142;
-  margin: 0;
 }
 .hero h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-family: var(--font-family-heading);
+  font-weight: 500;
   font-size: 24px;
-  line-height: 2;
-  opacity: 0.8;
+  line-height: 1.5;
 }
+
 .btn-contactMe {
   background-color: var(--secondary-color-btn);
   border: 1px solid var(--secondary-color-btn);
   border-radius: 4px;
-  padding: 18px 30px;
+  padding: 15px 30px;
   color: white;
   font-weight: 400;
   font-size: 18px;
@@ -52,18 +53,16 @@ h1 {
 p {
   font-size: 16px;
   line-height: 30px;
+  font-weight: normal;
 }
 h2 {
   font-size: 64px;
 }
-.projects {
-  font-size: 18px;
-  text-align: center;
-}
+
 .btn-learnMore {
   border: 1px solid var(--secondary-color-btn);
   border-radius: 4px;
-  padding: 18px 30px;
+  padding: 15px 30px;
   color: var(--secondary-color-btn);
   font-weight: 400;
   font-size: 18px;
@@ -79,13 +78,20 @@ h2 {
     text-align: center;
   }
   h1 {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 1.5;
   }
   h2 {
-    font-size: 40px;
+    font-size: 44px;
+  }
+  .hero h2 {
+    font-size: 22px;
+    font-weight: bold;
   }
   .hero {
     padding: 80px 20px;
+  }
+  h2 {
+    font-size: 44px;
   }
 }
