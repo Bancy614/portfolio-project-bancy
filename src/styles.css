@@ -114,6 +114,7 @@ h2 {
 }
 .content {
   margin: 30px;
+  text-align: center;
 }
 .content p {
   font-size: 14px;
