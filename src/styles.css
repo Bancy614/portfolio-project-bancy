@@ -103,6 +103,7 @@ h2 {
 
 .content-container {
   padding: 40px 20px;
+  text-align: center;
 }
 .content-container h1 {
   font-size: 64px;
