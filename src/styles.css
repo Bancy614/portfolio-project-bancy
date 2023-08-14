@@ -20,7 +20,7 @@ h6 {
 
 .hero {
   background: var(--primary-color-background);
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 h1 {
   font-weight: 700;
@@ -102,8 +102,8 @@ h2 {
 }
 
 .content-container {
-  padding: 40px 20px;
   text-align: center;
+  padding: 40px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -137,8 +137,7 @@ nav {
   color: #272142;
   transition: all 100ms ease-in-out;
 }
-.nav-links a:hover,
-.nav-links li.active {
+.nav-links a:hover {
   color: var(--secondary-color-btn);
 }
 .nav-links li {
@@ -178,6 +177,7 @@ footer .contact-box {
 footer .contact-box p {
   margin: 0;
 }
-h4 {
-  font-size: 48px;
+.nav-links li.active {
+  background: var(--primary-color-background);
+  margin-top: -8px;
 }
